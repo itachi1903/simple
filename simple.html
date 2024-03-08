@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <nav>
+            <h1 class="logo">carrier</h1>
+            <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#contact">contact</a></li>
+                <li><a href="#" class="sign in">sign in</a></li>
+            </ul>
+        </nav>
+        <section id="home">
+            <div class="home-part center">
+                <div class="detail">
+                    <h1>carrier institute</h1>
+                    <h2>software house</h2>
+                    <h3>A carrier is a company that specializes in developing, designing, and maintaining software
+                        solutions for various industries and clients.</h3>
+                    <a href="#about" class="home-a">explore more</a>
+                </div>
+            </div>
+            <div class="home-part center">
+                <img src="data:image/png;base64,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"
+                    alt="carrier" class="carrier">
+            </div>
+        </section>
+        <section id="about">
+            <h1 class="about-h1">carrier institute</h1>
+            <h2 class="about-h2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. In tempora cumque, excepturi
+                ratione perspiciatis harum nobis rerum quia voluptate itaque eveniet. Alias nihil architecto fugit,
+                minus, accusantium fugiat sint nostrum quam nam ab optio ut reiciendis debitis eveniet rerum, id quae?
+                Odit perferendis incidunt quia dolore! Possimus sapiente minus veritatis qui ratione nobis quasi
+                repudiandae, suscipit reprehenderit doloribus ab modi odio veniam distinctio explicabo nulla animi
+                exercitationem dolor ullam eum esse. Explicabo, aliquid praesentium consequuntur minima natus error
+                aspernatur. Saepe excepturi omnis, accusamus eveniet adipisci culpa voluptatem atque veritatis sunt
+                architecto enim aliquid quisquam possimus commodi consectetur dicta aliquam explicabo?</h2>
+        </section>
+        <section id="intro">
+            <h1 class="page-heading">for more information watch our video</h1>
+            <iframe width="80%" height="400px" src="https://www.youtube.com/embed/S_0I0RoFgXs?si=sLss3lcMuB0jMQNk"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </section>
+        <section id="timing">
+            <h1 class="page-heading">carrier timing</h1>
+            <table border="1px">
+                <tr>
+                    <th>Time</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                </tr>
+                <tr>
+                    <td>09:00 - 10:00</td>
+                    <td>Meeting</td>
+                    <td></td>
+                    <td>Project Review</td>
+                    <td></td>
+                    <td>Training</td>
+                </tr>
+                <tr>
+                    <td>10:00 - 11:00</td>
+                    <td></td>
+                    <td>Development</td>
+                    <td></td>
+                    <td>Discussion</td>
+                    <td>Testing</td>
+                </tr>
+                <tr>
+                    <td>11:00 - 12:00</td>
+                    <td>Planning</td>
+                    <td></td>
+                    <td>Client Demo</td>
+                    <td></td>
+                    <td>Documentation</td>
+                </tr>
+                <tr>
+                    <td>12:00 - 13:00</td>
+                    <td>Lunch</td>
+                    <td>Lunch</td>
+                    <td>Lunch</td>
+                    <td>Lunch</td>
+                    <td>Lunch</td>
+                </tr>
+                <tr>
+                    <td>13:00 - 14:00</td>
+                    <td>Testing</td>
+                    <td>Meeting</td>
+                    <td>Development</td>
+                    <td>Training</td>
+                    <td>Discussion</td>
+                </tr>
+                <tr>
+                    <td>14:00 - 15:00</td>
+                    <td>Documentation</td>
+                    <td>Client Demo</td>
+                    <td>Planning</td>
+                    <td>Project Review</td>
+                    <td>Client Demo</td>
+                </tr>
+                <tr>
+                    <td>15:00 - 16:00</td>
+                    <td></td>
+                    <td>Testing</td>
+                    <td></td>
+                    <td>Development</td>
+                    <td>Project Review</td>
+                </tr>
+            </table>
+        </section>
+        <section class="page" id="form">
+            <h1 class="page-heading">fill your form</h1>
+            <form action="">
+                <label for="name">Name</label>
+                <input type="text" class="input" name="name">
+                <label for="email">email</label>
+                <input type="text" name="email" class="input">
+                <label for="age">age</label>
+                <input type="text" class="input">
+                <label for="id">id card</label>
+               <input type="text" name="id" class="input">
+                <label for="city">city</label>
+                <input type="text" name="city" class="input">
+                <label for="gender">gender</label>
+                <div class="gender-can">
+                    <span>
+                        <input type="radio" name="gender" class="input">
+                        <label for="gender" class="gender">male</label>
+                    </span>
+                    <span>
+                        <input type="radio" name="gender" class="input">
+                        <label for="gender" class="gender">female</label>
+                    </span>
+                    <span>
+                        <input type="radio" name="gender" class="input">
+                        <label for="gender" class="gender">prefer not to say</label>
+                    </span>
+                </div>
+                <label for="course">course</label>
+                <select name="course" class="select-can">
+                    <option>web development</option>
+                    <option>android development</option>
+                    <option>full stack development</option>
+                    <option>ios development</option>
+                    <option>python development</option>
+                </select>
+                <input type="submit" class="submit input">
+            </form> 
+        </section>
+        <section id="poloicy">
+            <h1 class="page-heading">Detail about us</h1>
+            <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem sapiente vero quaerat fugit enim fugiat magnam vitae necessitatibus ab, officia possimus laudantium modi laboriosam eos, eius, tenetur provident? Quia corrupti soluta explicabo iusto facere doloribus? Commodi, vero deleniti. Odit commodi, illum omnis dolores ducimus nulla explicabo architecto aperiam ipsam, aspernatur fugit sit, vel veritatis numquam! Fugiat, molestias? Dolorum, cupiditate cum dolor natus, error fugit sequi iusto libero nihil adipisci, dicta molestias nostrum et! Totam, voluptate enim? Unde iusto, mollitia, consequatur enim corporis itaque debitis quia cumque minima sint cupiditate pariatur et autem error non. Asperiores culpa quasi minus atque nihil expedita architecto vitae, accusantium, magnam quis fuga eveniet, exercitationem voluptatibus impedit dolorum odio ex? Voluptates exercitationem porro consequatur quas? Corporis recusandae, reprehenderit id vel nulla cumque aspernatur molestias. Magni delectus officiis, reprehenderit veritatis ea nam quasi harum cum nisi placeat ipsum magnam. Eaque sint autem voluptas amet, facere accusantium laudantium aperiam, magnam illum numquam voluptatem architecto, eveniet ex veritatis sed placeat neque illo necessitatibus? Facilis provident at inventore nesciunt, perspiciatis laborum vel esse laboriosam ipsam praesentium assumenda eos ea, accusamus repellat. Possimus, eveniet temporibus sapiente in dolores dignissimos, est sed nesciunt numquam sit officiis, vel error iusto a quaerat repellendus?</h2>
+        </section>
+        <section id="contact">
+            <h1 class="page-heading">contact us</h1>
+            <form action="">
+                <label for="name">Name</label>
+                <input type="text" class="input" name="name">
+                <label for="email">email</label>
+                <input type="text" name="email" class="input">
+                <label for="message">message</label>
+                <textarea name="message" class="textarea"></textarea>
+                <input type="submit" class="submit input">
+            </form> 
+        </section>
+        <footer>
+            <h1>carrier insitute</h1>
+            <h2>software house</h2>
+            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut repudiandae impedit quibusdam laboriosam officia debitis. Voluptatibus dicta tempora voluptatum odit blanditiis ut, provident veniam rerum facere, possimus excepturi inventore ratione eos, impedit mollitia totam. Amet sint commodi, quisquam vitae dicta suscipit! Eos quo obcaecati nesciunt dignissimos corporis repellendus fuga et!</h2>
+            <h2>created by: hamza bilal <sup>&copy;2024</sup></h2>
+        </footer>
+    </main>
+</body>
+
+</html>
